@@ -5,7 +5,8 @@
 body {
    font-family: 'Cormorant', serif;
    font-family: 'Open Sans', sans-serif;
-   font-size: 18px;
+   font-size: 20px;
+   font-weight: 300;
 }
 
 .container {
@@ -50,3 +51,33 @@ body {
 .header-account__item:nth-child(3) {
    margin-left: 100px;
 }
+
+/* Intro */
+
+.intro {
+   background: url(../images/main.png) no-repeat;
+   background-size: cover;
+   min-height: 500px;
+   padding-top: 269px;
+   padding-bottom: 63px;
+}
+
+
+.intro-text__title {
+   font-family: Cormorant;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 60px;
+   color: #FFF;
+   margin-bottom: 20px;
+}
+
+.inro-text__subtitle {
+   font-family: Cormorant;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   color: #FFF;
+}
+
