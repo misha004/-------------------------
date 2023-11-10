@@ -130,3 +130,51 @@ body {
    font-size: 24px;
    font-weight: 400;
 }
+
+/* review */
+
+.review {
+   padding: 60px 0;
+   background: #F7F2EA;
+}
+
+.review__wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.review__title {
+   font-family: Cormorant;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-bottom: 60px;
+}
+
+.review__list {
+   display: flex;
+   justify-content: space-between;
+   gap: 26px;
+}
+
+.review__item {
+   width: 25%;
+}
+
+.review__item--quote {
+   color: var(--black);
+   font-size: 16px;
+   font-style: italic;
+   line-height: normal;
+   margin-bottom: 10px;
+}
+
+.review__item--author {
+   font-size: 20px;
+   font-weight: 600;
+   line-height: normal;
+}
+
+
