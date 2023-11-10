@@ -1,5 +1,5 @@
 :root {
-   --b;ack: #151618;
+   --black: #151618;
 }
 
 body {
@@ -176,5 +176,78 @@ body {
    font-weight: 600;
    line-height: normal;
 }
+
+/* Blog */
+
+.blog {
+   padding: 153px 0;
+}
+
+.blog__wrapper {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.blog__title {
+   font-family: Cormorant;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   margin-bottom: 60px;
+}
+
+.blog__list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 40px 57px;
+}
+
+.blog__item {
+   width: 542px;
+   display: flex;
+   gap: 20px;
+}
+
+.blog__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.blog__name {
+   font-family: Cormorant;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+   width: 252px;
+}
+
+.blog__subtitle {
+   font-size: 13px;
+}
+
+.blog__continue {
+   font-size: 13px;
+   display: flex;
+   align-items: center;
+   margin-top: 48px;
+}
+
+.blog__continue--element {
+   margin-left: 8px;
+}
+
+.blog__link {
+   display: block;
+   margin-top: 60px;
+   padding: 12px 41px;
+   border: 1px solid;
+   border-color: var(--black);
+}
+
+
 
 
